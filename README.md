@@ -72,3 +72,5 @@ To clean the project, run `bazel clean`.
 ## Visualization
 
 Run `bazel query --nohost_deps --noimplicit_deps 'deps(//main:wimbledon_2019)' --output graph`, and dump the output into tools such as [GraphViz](http://www.webgraphviz.com/).
+
+![dependency graph](./img/bazel_ex_viz.PNG)
