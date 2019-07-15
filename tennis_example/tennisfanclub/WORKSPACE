@@ -1,0 +1,7 @@
+workspace(name = "tennisfanclub")
+
+# Television library
+local_repository(
+    name = "television",
+    path = "../television",
+)
